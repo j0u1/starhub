@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+:root {
+  --bg: hsl(0, 0%, 12.5%);
+  --foreground: hsl(0, 0%, 100%);
+  --secondary: hsl(0, 0%, 17.5%);
+  --accent: hsl(39, 91%, 61%);
+}
+
+@theme {
+  --color-bg: var(--bg);
+  --color-foreground: var(--foreground);
+  --color-secondary: var(--secondary);
+  --color-accent: var(--accent);
+}
+
+::view-transition-old(logo-transition),
+::view-transition-new(logo-transition) {
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in-out;
+}
+
+html {
+  background: var(--bg);
+  color: var(--foreground);
+}
