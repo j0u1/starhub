@@ -4,9 +4,10 @@
 
 Создался по причине очень неудобного перехода к странице с моими звёздами на GitHub.
 
-<!--![website preview]()-->
+![website preview](https://github.com/user-attachments/assets/0c470279-c102-41bc-b6aa-71f5d07716d9)
 
 Стек: `Nuxt`, `Vue`, `Typescript`, `Tailwind CSS`, `Bun`
+
   ![stack](https://skillicons.dev/icons?i=nuxt,vue,ts,tailwind,bun)
 
 ## Установка
