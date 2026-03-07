@@ -1,75 +1,32 @@
-# Nuxt Minimal Starter
+## StarHub
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Простой пет-проект, предназначенный для просмотра звёзд конкретного пользователя. Есть ограничения по парсу с GitHub, чтобы это обойти нужно внедрить аунтодификацию.
 
-## Setup
+Создался по причине очень неудобного перехода к странице с моими звёздами на GitHub.
 
-Make sure to install dependencies:
+<!--![website preview]()-->
+
+Стек: `Nuxt`, `Vue`, `Typescript`, `Tailwind CSS`, `Bun`
+  ![stack](https://skillicons.dev/icons?i=nuxt,vue,ts,tailwind,bun)
+
+## Установка
+
+Зависимости
 
 ```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
 bun install
 ```
 
-## Development Server
+## Локальный запуск
 
-Start the development server on `http://localhost:3000`:
+Для запуска локально по `http://localhost:3000`
 
 ```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
 bun run dev
 ```
 
-## Production
-
-Build the application for production:
+## Билд
 
 ```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
 bun run build
 ```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
