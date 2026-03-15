@@ -2,16 +2,14 @@
 useSeoMeta({
     title: "StarHub",
     ogTitle: "StarHub",
-    description:
-        "StarHub платформа для просмотра звёзд конкретного пользователя на GitHub",
-    ogDescription:
-        "StarHub платформа для просмотра звёзд конкретного пользователя на GitHub",
+    description: "StarHub платформа для просмотра звёзд конкретного пользователя на GitHub",
+    ogDescription: "StarHub платформа для просмотра звёзд конкретного пользователя на GitHub",
     twitterCard: "summary_large_image",
 });
 </script>
 
 <template>
-    <div class="min-h-screen flex flex-col bg-bg container mx-auto px-4 lg:px-6 duration-300 transition-all">
+    <div class="container flex flex-col px-4 mx-auto min-h-screen transition-all duration-300 lg:px-6 bg-bg">
         <NuxtRouteAnnouncer />
         <NuxtPage />
     </div>
