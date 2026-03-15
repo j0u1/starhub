@@ -25,7 +25,7 @@ const { data: starred, refresh, pending, error } = useAsyncData<any>(
 </script>
 
 <template>
-    <main class="flex flex-col gap-12 min-h-dvh">
+    <main class="flex flex-col gap-12 min-h-dvh pb-4 lg:pb-6 ">
         <section class="flex flex-col items-center justify-end gap-8 min-h-[55dvh]">
             <div class="text-center space-y-0.5">
                 <div class="flex w-fit mx-auto items-center gap-2 font-semibold text-xl"
