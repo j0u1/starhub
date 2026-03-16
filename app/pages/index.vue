@@ -83,11 +83,7 @@ const {
                         :key="star.id"
                         class="flex flex-col gap-2 p-4 rounded-lg transition-all duration-300 outline outline-secondary hover:outline-neutral-700"
                     >
-                        <a
-                            :href="star.owner.html_url"
-                            class="flex justify-between items-start group/link"
-                            target="_blank"
-                        >
+                        <a :href="star.html_url" class="flex justify-between items-start group/link" target="_blank">
                             <div class="flex gap-2 items-center">
                                 <NuxtImg class="rounded-full size-12 bg-neutral-900" :src="star.owner.avatar_url" />
                                 <div class="flex flex-col leading-[1.05]">
