@@ -5,8 +5,6 @@ export const useDebounce = <T>(value: Ref<T>, delay = 300) => {
     const handler = setTimeout(() => {
       debouncedValue.value = newValue;
     }, delay);
-
-    // Очистка предыдущего таймера (аналог return в useEffect)
     onWatcherCleanup(() => clearTimeout(handler));
   });
 
