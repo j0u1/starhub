@@ -43,6 +43,7 @@ defineProps({
                 :class="!userRef ? 'opacity-0 scale-0' : 'opacity-100 scale-100'"
             >
                 <ArrowRightIcon class="size-5 text-neutral-300" />
+                <span class="sr-only">Поиск</span>
             </button>
         </div>
     </section>
