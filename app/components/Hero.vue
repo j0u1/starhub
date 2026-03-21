@@ -13,6 +13,7 @@ defineProps({
 
 <template>
   <section class="flex min-h-[55dvh] flex-col items-center justify-end gap-8">
+    <GithubLink />
     <div class="space-y-0.5 text-center">
       <div
         class="mx-auto flex w-fit items-center gap-2 text-xl font-semibold"
