@@ -10,5 +10,12 @@ export default defineNuxtConfig({
   experimental: {
     viewTransition: true,
   },
-  modules: ['@nuxt/image']
+  app: {
+    head: {
+      htmlAttrs: {
+        lang: 'ru',
+      },
+    },
+  },
+  modules: ['@nuxt/image'],
 })
