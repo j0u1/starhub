@@ -8,7 +8,7 @@
 
 Стек: `Nuxt`, `Vue`, `Typescript`, `Tailwind CSS`, `Bun`
 
-  ![stack](https://skillicons.dev/icons?i=nuxt,vue,ts,tailwind,bun)
+![stack](https://skillicons.dev/icons?i=nuxt,vue,ts,tailwind,bun)
 
 ## Установка
 
